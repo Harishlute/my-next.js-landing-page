@@ -1,7 +1,10 @@
-/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   output: 'export',
-  // other configurations...
+  images: {
+    unoptimized: true, // Optional: Disable image optimization for static export
+  },
+  assetPrefix: isProd ? '/your-repo-name/' : '',
+  basePath: isProd ? '/your-repo-name' : '',
 };
-
-module.exports = nextConfig;
