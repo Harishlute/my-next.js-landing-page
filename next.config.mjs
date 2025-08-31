@@ -5,6 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true, // Optional: Disable image optimization for static export
   },
-  assetPrefix: isProd ? '/your-repo-name/' : '',
-  basePath: isProd ? '/your-repo-name' : '',
+  assetPrefix: isProd ? '/my-next.js-landing-page /' : '',
+  basePath: isProd ? '/my-next.js-landing-page' : '',
 };
