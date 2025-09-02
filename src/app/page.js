@@ -174,7 +174,7 @@ const TestimonialsSection = () => {
         <div className="grid grid-cols-1 gap-8 mt-12 md:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="p-8 transition-transform duration-300 transform bg-white border border-gray-200 rounded-2xl shadow-xl hover:scale-105">
-              <p className="text-lg font-medium text-gray-700">"{testimonial.text}"</p>
+              <p className="text-lg font-medium text-gray-700">&ldquo;{testimonial.text}&rdquo;</p>
               <p className="mt-4 font-bold text-indigo-600">{testimonial.author}</p>
             </div>
           ))}
@@ -257,7 +257,7 @@ const ContactSection = () => {
           Get in Touch
         </h2>
         <p className="max-w-xl mx-auto mt-4 text-lg text-center text-gray-600">
-          Have a question or a project in mind? We'd love to hear from you.
+          Have a question or a project in mind? We&apos;d love to hear from you.
         </p>
         <div className="p-8 mt-12 bg-white border border-gray-200 rounded-2xl shadow-xl">
           <form className="space-y-6">
