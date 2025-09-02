@@ -45,7 +45,7 @@ const Header = ({ currentPage, onNavigate }) => {
         
         {/* Mobile menu button */}
         <div className="md:hidden">
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="p-2 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400">
+                  <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="p-2 bg-gray-800 text-indigo-400 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-700">
             <Menu />
           </button>
         </div>
